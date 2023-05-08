@@ -69,7 +69,7 @@
           <h1 class="title is-1 publication-title">CaPTURe: Cartoon Pose Transfer Using Reverse Attention</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://anchang8.github.io">Chang-Hyeon An</a><sup>1</sup>and</span>
+              <a href="https://anchang8.github.io">Chang-Hyeon An</a><sup>1</sup> and</span>
             <span class="author-block">
               <a href="https://scholar.google.com/citations?user=uX_-KBcAAAAJ&hl=en">Hyun-Chul Choi</a><sup>1</sup>
           </div>
@@ -164,18 +164,42 @@
       </div>
     </div>
     <!--/ Abstract. -->
-
-    <!-- Paper video. -->
+    <!-- Method. -->
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <div class="column is-full-width">
+        <h2 class="title is-3">Methodology</h2>
+        <div class="content has-text-justified">
+          <table align=center width=400px>
+            <tr>
+              <td align=center width=400px>
+                <center>
+                  <td><img class="round" style="width:450px" src="./static/images/CaPTURe.png"/></td>
+                </center>
+              </td>
+            </tr>
+          </table>
+          <table align=center width=400px>
+            <tr>
+              <td align=center width=400px>
+                <center>
+                  <td><img class="round" style="width:450px" src="./static/images/attnDec.png"/></td>
+                </center>
+              </td>
+            </tr>
+          </table>
+          <table align=center width=400px>
+            <tr>
+              <td align=center width=400px>
+                <center>
+                  <td><img class="round" style="width:450px" src="./static/images/attnModule.png"/></td>
+                </center>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
-    <!--/ Paper video. -->
+    <!--/ Method. -->
   </div>
 </section>
 
@@ -184,48 +208,11 @@
   <div class="container is-max-desktop">
 
     <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Matting. -->
-
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Animation</h2>
-
+        
         <!-- Interpolating. -->
         <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
@@ -316,27 +303,23 @@
   </div>
 </section>
 
-
+<!--
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@article{an2023capture,
+  author    = {Chang-Hyeon An and Hyun-Chul Choi.},
+  title     = {CaPTURe: Cartoon Pose Transfer Using Reverse Attention},
+  journal   = {Neurocomputing},
+  year      = {2023},
 }</code></pre>
   </div>
 </section>
-
+-->
 
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
       <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
